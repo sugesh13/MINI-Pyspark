@@ -1,0 +1,4 @@
+I worked on a PySpark-based data processing project where I implemented a simple ETL pipeline. The objective of the project was to process and analyze structured employee data efficiently.
+In the extraction phase, I loaded data from a CSV file into a PySpark DataFrame. Then in the transformation phase, I performed data cleaning by handling missing values using functions like dropna(). I also applied transformations such as filtering records based on salary and grouping data by department.
+I used aggregation functions to calculate insights like average salary and employee count for each department. Finally, in the load phase, I stored the processed results into an output file.
+Through this project, I understood how PySpark can handle large-scale data using distributed processing and how ETL pipelines are used in real-world data engineering workflows.
